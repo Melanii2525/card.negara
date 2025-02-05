@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #7f7fd5;
+    background: linear-gradient(to left, rgba(224, 182, 230, 0.8), rgba(173, 129, 203, 0.7), rgba(160, 93, 160, 0.8));
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-block: 2rem;
+    gap: 2rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px 0px;
+    border-radius: 10px;
+}
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.b1 {
+    color: black;
+}
+.card-body {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background-color: #daccbb;
+}
+
+* :before,
+* :after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
